@@ -1,0 +1,89 @@
+.player-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    max-width: 300px; /* Increased width to accommodate the photo */
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    display: flex; /* Added to create space for the photo */
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .player-photo {
+    width: 120px; /* Increased size for better visibility */
+    height: auto; /* Let the height adjust based on width */
+    margin-bottom: 12px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .player-photo img {
+    max-width: 100%; /* Ensure the image fits within the container */
+    height: auto;
+  }
+  
+  .player-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    text-align: center;
+  }
+  
+  .player-details {
+    font-size: 14px;
+    color: #666;
+    text-align: center; /* Align text centrally */
+  }
+  
+  .team-name, .position {
+    margin: 4px 0;
+  }
+  
+  
+  .player-info {
+    text-align: center;
+  }
+  
+  .player-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .first-name {
+    color: #333;
+  }
+  
+  .last-name {
+    color: #555;
+  }
+  
+  .player-details {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .team-name, .position {
+    margin: 4px 0;
+  }
+  
+  .goalkeeper {
+    background-color: #d4e157;
+  }
+  
+  .defender {
+    background-color: #64b5f6;
+  }
+  
+  .midfielder {
+    background-color: #ffb74d;
+  }
+  
+  .forward {
+    background-color: #f06292;
+  }
+  
